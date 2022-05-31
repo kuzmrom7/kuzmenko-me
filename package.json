@@ -1,7 +1,11 @@
 {
   "name": "kuzmenko-me",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Roman Kuzmenko",
+    "email": "kuzmrom.code@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,6 +23,7 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "prettier": "^2.6.2",
     "typescript": "4.7.2"
   }
 }
