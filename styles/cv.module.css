@@ -1,6 +1,5 @@
 .main {
     min-height: 100vh;
-    padding: 4rem 0;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -9,4 +8,5 @@
     position: relative;
     background-color: var(--bg-color);
     color: var(--text-color);
+    padding: 0 20px;
 }
