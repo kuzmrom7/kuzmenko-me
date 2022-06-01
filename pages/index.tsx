@@ -11,19 +11,12 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/*<header className={styles.header}></header>*/}
         <h1 className={styles.title}>Roman Kuzmenko</h1>
         <p className={styles.description}>Frontend developer from Saint-Petersburg</p>
         <footer className={styles.footer}>
-          <div className={styles.link}>
-            <a href="https://github.com/Kuzmrom7">Github</a>
-          </div>
-          <div className={styles.link}>
-            <a href="https://t.me/rkuzmen">Telegram</a>
-          </div>
-          <div className={styles.link}>
-            <a href="https://romakuzmenko.notion.site/1de0f979faa54c7295652de386e03716">CV</a>
-          </div>
+          <a className={styles.link} href="https://github.com/Kuzmrom7">Github</a>
+          <a className={styles.link} href="https://t.me/rkuzmen">Telegram</a>
+          <a className={styles.link} href="https://romakuzmenko.notion.site/1de0f979faa54c7295652de386e03716">CV</a>
         </footer>
       </main>
     </>
