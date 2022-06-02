@@ -9,6 +9,9 @@ const Languages: React.FunctionComponent = () => {
 
   return (
     <div className={styles.wrap}>
+      <Link href="/">
+        <h3 className={cn(styles.item, styles.itemLeft)}>Home</h3>
+      </Link>
       <Link href="/cv">
         <h3 className={cn(styles.item, router.pathname === '/cv' && styles.itemActive)}>Ru</h3>
       </Link>

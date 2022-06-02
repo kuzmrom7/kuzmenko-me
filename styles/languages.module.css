@@ -4,8 +4,8 @@
     justify-content: flex-end;
 }
 
-.wrap > h3:first-child {
-    margin-right: 6px;
+.wrap > h3:last-child {
+    margin-left: 6px;
 }
 
 .item {
@@ -22,4 +22,8 @@
 
 .itemActive {
     border-bottom: 2px solid var(--link-color);
+}
+
+.itemLeft {
+    margin-right: auto;
 }
