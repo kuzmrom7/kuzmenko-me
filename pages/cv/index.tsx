@@ -1,13 +1,14 @@
-import { getFileContent } from '../lib/mdx';
+import { getFileContent } from '../../lib/mdx';
 import { MDXRemote } from 'next-mdx-remote';
 import type { InferGetStaticPropsType } from 'next';
-
-import styles from '../styles/cv.module.css';
 import Head from "next/head";
+import Languages from "../../components/Languages";
+
+import styles from '../../styles/cv.module.css';
 
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
 
-export default function CV({ source }: Props) {
+export default function Index({ source }: Props) {
   return (
     <>
       <Head>
@@ -16,6 +17,7 @@ export default function CV({ source }: Props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        <Languages/>
         <MDXRemote {...source} />
       </main>
     </>

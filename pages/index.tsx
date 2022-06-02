@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import styles from '../styles/home.module.css';
+import coreStyles from '../styles/core.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -16,14 +17,14 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>Roman Kuzmenko</h1>
         <p className={styles.description}>Frontend developer from Saint-Petersburg</p>
         <footer className={styles.footer}>
-          <a className={styles.link} href="https://github.com/Kuzmrom7">
+          <a className={coreStyles.link} href="https://github.com/Kuzmrom7">
             Github
           </a>
-          <a className={styles.link} href="https://t.me/rkuzmen">
+          <a className={coreStyles.link} href="https://t.me/rkuzmen">
             Telegram
           </a>
           <Link href="/cv">
-            <a className={styles.link}>CV</a>
+            <a className={coreStyles.link}>CV</a>
           </Link>
         </footer>
       </main>

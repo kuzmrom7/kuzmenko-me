@@ -1,0 +1,25 @@
+.wrap {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.wrap > h3:first-child {
+    margin-right: 6px;
+}
+
+.item {
+    cursor: pointer;
+    color: var(--link-color);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+    transition: border-color 0.3s ease;
+}
+
+.item:hover {
+    border-bottom: 2px solid var(--link-color);
+}
+
+.itemActive {
+    border-bottom: 2px solid var(--link-color);
+}
