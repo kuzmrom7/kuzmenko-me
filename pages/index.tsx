@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
       <main className={styles.main}>
         <h1 className={styles.title}>Roman Kuzmenko</h1>
-        <p className={styles.description}>Frontend developer from Saint-Petersburg</p>
+        <p className={styles.description}>Frontend developer with five years experience</p>
         <footer className={styles.footer}>
           <a className={coreStyles.link} href="https://github.com/Kuzmrom7">
             Github
@@ -26,6 +26,9 @@ const Home: NextPage = () => {
           <Link href="/cv">
             <a className={coreStyles.link}>CV</a>
           </Link>
+          <a className={coreStyles.link} href="https://www.linkedin.com/in/roman-kuzmenko-b270ba136/">
+            LinkedIn
+          </a>
         </footer>
       </main>
     </>
