@@ -23,9 +23,6 @@ const Home: NextPage = () => {
           <a className={coreStyles.link} href="https://t.me/rkuzmen">
             Telegram
           </a>
-          <Link href="/cv">
-            <a className={coreStyles.link}>CV</a>
-          </Link>
           <a className={coreStyles.link} href="https://www.linkedin.com/in/roman-kuzmenko-b270ba136/">
             LinkedIn
           </a>
